@@ -1,7 +1,7 @@
 import reflex as rx
 
-@rx.page(route="/iniciar", title="inicia secion")
-def iniciar() -> rx.Component:
+@rx.page(route="/menu")
+def menu()->rx.Component:
     return rx.container(
         rx.vstack(
             rx.heading("Bienvenido a la Monada"),
